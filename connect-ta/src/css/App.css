@@ -1,0 +1,246 @@
+/* Import Font */
+@font-face {
+    font-family: "Rockwell";
+    src: local("Rockwell"),
+     url("../fonts/ROCK.TTF") format("truetype");
+    font-weight: normal;
+    }
+
+* {
+    font-family: 'lato', Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 18px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+/* Home */
+.title, .section-title {
+    font-family: 'Rockwell';
+}
+
+.title {
+    font-size: 3.3em;
+}
+
+/* Navigation */
+nav {
+    background-color: white;
+    align-items: center;
+}
+
+.nav .nav-brand {
+    font-weight: bolder;
+    letter-spacing: .15em;
+}
+
+.nav-link {
+    margin: auto .5em;
+}
+
+/* Header */
+.header {
+    padding: 13em 20em;
+}
+
+.header p {
+    padding: .5em 0em;
+}
+
+.header .logo {
+    height: 20em;
+}
+
+/* Home Section 1 */
+.home-section-1 {
+    background: url(../img/homesection1-background.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 29em;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.home-section-1 .content {
+    padding-top: 11em;
+}
+
+.home-section-1 p {
+    margin-top: 1em;
+    padding: 0em 25em;
+}
+
+/* Home Section 2 */
+.home-section-2 {
+    background: url(../img/homesection2-background.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 54em;
+    top: -9em;
+    position: relative;
+    z-index: -1;
+    color: white;
+    text-align: center;
+}
+
+.home-section-2 .content {
+    padding: 0em 10.5em;
+}
+
+.home-section-2 .section-title {
+    font-size: 50px;
+}
+
+.home-section-2 .reflect, .home-section-2 .practice {
+    margin: 20em 1em;
+}
+
+.home-section-2 .learn {
+    margin: 23em 1em;
+}
+
+.home-section-2 .reflect p, .home-section-2 .practice p, .home-section-2 .learn p {
+    margin-top: 1em;
+}
+
+/* Statistic */
+.statistic {
+    padding: 0em 15em;
+    padding-bottom: 9em;
+    text-align: center;
+}
+
+.statistic p {
+    font-size: 21px;
+    padding: 2em 9em;
+}
+
+/* Get Started */
+.get-started {
+    background-color: #F5F1F1;
+    padding: 4.5em 15em; 
+}
+
+.get-started button {
+    margin: .7em 0em;
+}
+
+/* Enter Workshop */ 
+.enter-workshop {
+    padding: 2em 12em;
+    padding-top: 7em;
+}
+
+.enter-workshop h2 {
+    font-size: 35pt;
+}
+
+.enter {
+    margin-top: 3em;
+}
+
+.enter h4 {
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+.enter-workshop img {
+    margin: 1em 0em;
+    width: 15em;
+    height: 12em;
+    object-fit: cover;
+}
+
+.workshop-preview {
+    margin-top: 1.5em;
+}
+
+/* Footer */
+footer {
+    padding-top: 5em;
+}
+
+.links {
+    padding: 2em 16em;
+    font-size: 14px;
+}
+
+.footer .footer-divider {
+    height: .8px;
+    width: 80%;
+    margin: 1em auto;
+    border: 0;
+    background-color: black;
+    opacity: 1;
+    
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer h5 {
+    font-weight: bolder;
+    letter-spacing: .15em;
+}
+
+.link, .footer h5, .footer-credits {
+    text-align: center;
+}
+
+.footer-credits p {
+    padding: 1em 0;
+    font-size: .75em;
+}
+
+/* CSS Button */
+.button-18 {
+    align-items: center;
+    background-color: #2E2E2E;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 40px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 1em 3.5em;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+  }
+  
+  .button-18:hover { 
+    background-color: #ffffff;
+    color: #2E2E2E;
+    border: 1px solid black;
+  }
+  
+
+/* Component Actions */
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: grey;
+}
+

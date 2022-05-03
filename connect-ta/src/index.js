@@ -1,17 +1,23 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
+import * as ReactDOM from 'react-dom';
+import {BrowserRouter} from 'react-router-dom';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import './fonts/ROCK.TTF';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+import { initializeApp } from "firebase/app";
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+const firebaseConfig = {
+  apiKey: "AIzaSyAd6eLbJsPuG2V699S_n0KcRenm3VLSC8E",
+  authDomain: "connecta-access-it.firebaseapp.com",
+  projectId: "connecta-access-it",
+  storageBucket: "connecta-access-it.appspot.com",
+  messagingSenderId: "910388986846",
+  appId: "1:910388986846:web:380795639f69e26c92134f"
+};
+
+const app = initializeApp(firebaseConfig);
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <BrowserRouter>
+    <App/>
+  </BrowserRouter>);
